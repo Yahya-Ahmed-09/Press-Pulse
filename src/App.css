@@ -6,6 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
+.loader img{
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  mix-blend-mode: hard-light;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
